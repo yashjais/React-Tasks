@@ -1,6 +1,6 @@
 ## React Assignments
 
-In this section, I have listed all the assignments that I have done using React.
+In this section, I have listed all the tasks that I have done using React.
 
 ## Available Scripts
 
