@@ -27,7 +27,7 @@ import CatchEvens from './source/CatchEvens'
 import DistanceCalculator from './source/DistanceCalculator'
 import StockPrice from './source/StockPrice'
 import UserShow from './components/UserShow'
-
+import Hooks from './source/Hooks'
 
 function App(props) {
     // const fruits = ['apple', 'mango', 'kiwi']
@@ -66,6 +66,7 @@ function App(props) {
                 <Route path="/assignments/stock-price" component={StockPrice} />
                 <Route path="/users/:id" component={UserShow} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/assignments/hooks" component={Hooks} />
 
             </div>
         </BrowserRouter>
