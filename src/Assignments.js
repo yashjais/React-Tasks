@@ -26,6 +26,8 @@ function Assignments(props) {
                 <li><Link to="/assignments/distance-calculator">Distance Calculator</Link></li>
                 <li><Link to="/assignments/stock-price">Stock Price</Link></li>
                 <li><Link to="/assignments/hooks">Hooks</Link></li>
+                <li><Link to="/assignments/example">Hooks Example</Link></li>
+                <li><Link to="/assignments/jsonplaceholder">JsonPlaceholder</Link></li>
             </ol>
         </div>
     )

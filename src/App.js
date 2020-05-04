@@ -28,19 +28,21 @@ import DistanceCalculator from './source/DistanceCalculator'
 import StockPrice from './source/StockPrice'
 import UserShow from './components/UserShow'
 import Hooks from './source/Hooks'
+import Example from './source/Example'
+import JsonPlaceholder from './source/JsonPlaceholder'
 
 function App(props) {
     // const fruits = ['apple', 'mango', 'kiwi']
-    return ( 
+    return (
         <BrowserRouter>
-            <div> 
-                
+            <div>
+
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/users">Users List</Link>
                 <Link to="/assignments">Assigments</Link>
                 <Link to="/contact">Contact</Link>
-                
+
                 <Route path="/" component={Home} exact={true} />
                 <Route path="/about" component={About} />
                 <Route path="/users" component={UsersList} exact={true} />
@@ -67,6 +69,8 @@ function App(props) {
                 <Route path="/users/:id" component={UserShow} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/assignments/hooks" component={Hooks} />
+                <Route path="/assignments/example" component={Example} />
+                <Route path="/assignments/jsonplaceholder" component={JsonPlaceholder} />
 
             </div>
         </BrowserRouter>
